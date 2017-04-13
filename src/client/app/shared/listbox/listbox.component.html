@@ -1,0 +1,13 @@
+<div class="filter-container">
+  <div class="title">{{ name || field }}</div>
+  <div class="scrollable">
+    <ul>
+      <li 
+        *ngFor="let row of source$ | async" 
+        [ngClass]="{ 's': row.s, 'x': row.x }"
+        (click)="select(row.idx)">
+        <span>{{ row.value }}</span>
+      </li>
+    </ul>
+  </div>
+</div>

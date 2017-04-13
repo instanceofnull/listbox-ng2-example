@@ -1,0 +1,42 @@
+:host {
+  display: block;
+}
+
+.scrollable {
+  max-height: 270px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  margin-bottom: 10px;
+}
+
+.title {
+  color: #717575;
+  font-size: 14px;
+}
+
+ul {
+  list-style-type: none;
+  -webkit-padding-start: 0;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  height: 20px;
+  margin: 5px;
+  border-bottom: 1px solid #D8E4E6;
+}
+
+li span {
+  white-space: nowrap;
+}
+
+/* Qlik States */
+.s { 
+  color: #2D8C94;
+  font-weight: bold;
+}
+.x { 
+  color: #BDBDBD;
+  font-style: italic;
+}
